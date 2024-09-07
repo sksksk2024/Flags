@@ -1,4 +1,4 @@
-#This is the project that It make me understand more about apis and is a very good project to take as an individual that wants to train React
+# This is the project that It make me understand more about apis and is a very good project to take as an individual that wants to train React
 
 ## Getting Started with Create React App
 
