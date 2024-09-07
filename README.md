@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+#This is the project that It make me understand more about apis and is a very good project to take as an individual that wants to train React
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
