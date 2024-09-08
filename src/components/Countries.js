@@ -11,7 +11,7 @@ export default function Countries() {
   useEffect(() => {
     const fetchCountries = async () => {
       try {
-        const res = await fetch(`http://api.countrylayer.com/v2/all?access_key=${process.env.REACT_APP_ACCESS_KEY}`);
+        const res = await fetch(`http://api.countrylayer.com/v3.1/all?access_key=${process.env.REACT_APP_ACCESS_KEY}`);
         const data = await res.json();
 
         if (Array.isArray(data)) { // Check if the data is an array

@@ -9,7 +9,7 @@ export default function Country() {
   useEffect(() => {
     const fetchCountryData = async () => {
       try {
-        const res = await fetch(`http://api.countrylayer.com/v2/capital/${capital}?access_key=${process.env.REACT_APP_ACCESS_KEY}`);
+        const res = await fetch(`http://api.countrylayer.com/v3.1/capital/${capital}?access_key=${process.env.REACT_APP_ACCESS_KEY}`);
         const data = await res.json();
         setCountry(data[0] || data); // Handle if the API returns an array or object
         setIsLoading(false);

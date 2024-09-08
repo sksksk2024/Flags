@@ -4,7 +4,7 @@ export default function Filter({ searchCountries, searchInput, setCountries }) {
   const fetchCountryByRegion = async (region) => {
     try {
       const regionName = region.toLowerCase(); // Convert the region name to lowercase
-      const res = await fetch(`http://api.countrylayer.com/v2/region/${regionName}?access_key=${process.env.REACT_APP_ACCESS_KEY}`);
+      const res = await fetch(`http://api.countrylayer.com/v3.1/region/${regionName}?access_key=${process.env.REACT_APP_ACCESS_KEY}`);
       const data = await res.json();
   
       if (Array.isArray(data)) {
